@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint .",
     "deploy:opencampus": "npx hardhat run --network opencampus scripts/deploy.ts",
-    "deploy:transfer": "npx hardhat run --network opencampus scripts/existing_contract_use.ts"
+    "deploy:transfer": "npx hardhat run --network opencampus scripts/existing_contract_use.ts",
+    "build": "echo 'No build required'"
   },
   "author": "manjeet",
   "license": "ISC",
